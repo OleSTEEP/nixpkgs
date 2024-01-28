@@ -10,7 +10,7 @@ buildPythonPackage rec {
 
   src = fetchurl {
     url = "https://www.renpy.org/dl/${renpy_version}/pygame_sdl2-${version}+renpy${renpy_version}.tar.gz";
-    hash = "sha256-mrfrsRAVEqw7fwtYdeATp/8AtMn74x9pJEXwYZPOl2I=";
+    hash = "sha256-HlZEst+LLF0c7HEMLyBH19haggoGVy72nwMpeFgarJ4=";
   };
 
   # force rebuild of headers needed for install
